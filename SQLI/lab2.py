@@ -43,9 +43,9 @@ def main():
     session = requests.Session()
     response_text = form_fill(session, product_url, payload, password)
     if check_wrong_login(response_text):
-        print("SQL injection succeeded!")
+        print("Koated !!")
     else:
-        print("SQL injection failed.")
+        print("ya siks")
 
 
 if __name__ == "__main__":
